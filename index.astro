@@ -1,0 +1,22 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Banner from "../components/Banner.astro";
+import Features from "../components/widgets/Features.astro";
+import TestCard from "../components/widgets/Testimonios.astro";
+import Stats from "../components/widgets/Stats.astro";
+import Info from "../components/widgets/Info.astro";
+import CTA from "../components/widgets/CTA.astro"
+---
+
+<Layout title="Inicio" estilo="" activo="inicio">
+    <Banner />
+    <Stats />
+    <Features />
+
+    <Info />
+    <hr style="width: 65%;margin: 20px auto;">
+    <TestCard />
+    <hr style="width: 65%;margin: 20px auto;">
+    
+    <CTA />
+</Layout>
